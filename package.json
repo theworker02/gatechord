@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/gatechord",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gate structured JSON chord payloads without a heavyweight toolkit.",
+  "bin": {
+    "gatechord": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/gatechord.git"
+  },
+  "homepage": "https://theworker02.github.io/gatechord/",
+  "keywords": [
+    "gate",
+    "chord",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
